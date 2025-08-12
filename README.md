@@ -1,4 +1,4 @@
-# Elcam H. Sorenson - Personal Website
+# Cam - Personal Website
 
 This is my personal website showcasing my background, research, and projects in computer science, AI, and data analytics.
 
