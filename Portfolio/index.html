@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Elcam - About Me</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #222;
+      background: #f9f9f9;
+    }
+    .container {
+      display: flex;
+      gap: 40px;
+      align-items: flex-start;
+      margin-top: 20px;
+    }
+    .profile-section {
+      flex-shrink: 0;
+      width: 250px;
+    }
+    .profile-image {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    .profile-info {
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+    .profile-name {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 8px;
+      color: #2c3e50;
+    }
+    .profile-title {
+      font-weight: 600;
+      margin-bottom: 4px;
+      color: #34495e;
+    }
+    .profile-location {
+      color: #7f8c8d;
+      margin-bottom: 8px;
+    }
+    .profile-skills {
+      color: #555;
+      font-style: italic;
+    }
+    .main-content {
+      flex: 1;
+    }
+    h1, h2 {
+      color: #2c3e50;
+      margin-top: 2rem;
+    }
+    p {
+      margin-bottom: 1rem;
+    }
+    ul {
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      padding-left: 20px;
+    }
+    a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #555;
+      border-top: 1px solid #ddd;
+      padding-top: 1rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile-section">
+      <img src="cam.jpg" alt="Elcam" class="profile-image">
+      <div class="profile-info">
+        <div class="profile-name">Elcam</div>
+        <div class="profile-title">CamSync | Research</div>
+        <div class="profile-skills">Mathematics, Computer Science, Data Analysis</div>
+        <div class="profile-location">University of Arkansas, Fayetteville</div>
+      </div>
+    </div>
+    <div class="main-content">
+      <h1>About Me</h1>
+  <p>
+    My curiosity and passion for intelligent systems is what drives me
+    to explore how we can build efficient tools that make the world a better place.
+    Through my academic experiences at Uark, 
+    my enthusiasm for computer science, mathematics, and data analysis has grown stronger.
+    Over the past few years, I’ve worked across industry, academia, and independent projects, 
+    building expertise in system design, applied data analytics, AI integration, and cryptography.
+    I’m always interested in projects where mathematics and machine learning intersect;
+    projects where theory can be transformed into tools that make a measurable impact.
+  </p>
+    
+  <h2>Research</h2>
+  <p>
+    My current research focuses on <strong>Alignment & Fairness Regression via Historical Memory</strong>. 
+    The main goal is to continuously monitor AI outputs to ensure they remain aligned with human values 
+    and fair across diverse groups.
+  </p>
+  <p>The main objectives are to:</p>
+  <ul>
+    <li>Implement a historical memory system that logs AI decisions along with alignment rules and fairness-related metadata.</li>
+    <li>Develop scoring algorithms that detect regressions in alignment and fairness by comparing new outputs against historical patterns.</li>
+    <li>Create a framework for actionable adjustment, providing suggestions for model updates or rule modifications when regressions are detected.</li>
+    <li>Evaluate the system on synthetic and real-world datasets to ensure detection accuracy, low latency, and efficiency.</li>
+  </ul>
+  <p>
+    This work draws on research from <em>alignment monitoring, continuous AI auditing, fairness drift detection,</em> 
+    and memory-based AI architectures, combining theory with practical implementation for real-world impact.
+  </p>
+
+  <h2>Projects</h2>
+  <p><strong><a href="https://www.camsyncsystems.com/" target="_blank">CamSync File Management System</a></strong></p>
+  <p>
+    CamSync is my flagship project. This is a file management platform that combines AES-GCM 
+    with AI-based document summarization. I built CamSync using Flask, Nginx, and PyTorch-based transformers.
+    Every file is encrypted before storage and decrypted only for authorized users.
+    The AI summarizer gives user(s) concise and context-aware summaries for multiple file formats
+    without needing to open them.
+  </p>
+
+  <h2>Vision</h2>
+  <p>
+    I believe the next generation of intelligent systems
+    will need to combine strong security guarantees with adaptive and context-aware intelligence. 
+    Systems should maintain alignment and fairness over time and learn from interactions without compromising privacy. 
+    I think my work on CamSync and Alignment & Fairness Regression is a step towards that future.
+  </p>
+
+  <h2>Other Activities</h2>
+  <p>
+    In my free time, 
+    I enjoy reading, losing myself in soul, delta blues, and some jazz records. 
+  </p>
+
+    </div>
+  </div>
+  <footer>
+    &copy; Cam
+  </footer>
+</body>
+</html>
