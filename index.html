@@ -85,6 +85,68 @@
       padding-top: 1rem;
       text-align: center;
     }
+
+    /* Responsive design for tablets and mobile */
+    @media (max-width: 768px) {
+      body {
+        margin: 20px auto;
+        padding: 0 15px;
+      }
+      
+      .container {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        text-align: center;
+      }
+      
+      .profile-section {
+        width: 100%;
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .profile-image {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 15px;
+      }
+      
+      .profile-info {
+        text-align: center;
+      }
+      
+      .main-content {
+        width: 100%;
+      }
+      
+      h1, h2 {
+        margin-top: 1.5rem;
+      }
+    }
+
+    /* Extra small screens */
+    @media (max-width: 480px) {
+      body {
+        margin: 15px auto;
+        padding: 0 10px;
+      }
+      
+      .profile-image {
+        width: 120px;
+        height: 120px;
+      }
+      
+      .profile-name {
+        font-size: 1.3rem;
+      }
+      
+      .container {
+        gap: 20px;
+      }
+    }
   </style>
 </head>
 <body>
