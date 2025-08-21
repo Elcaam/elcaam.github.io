@@ -1,37 +1,8 @@
-# Elcam - Personal Website
+# Personal Portfolio Website
 
-This is my personal website showcasing my background, research, and projects in computer science, AI, and data analytics.
+Welcome to my personal portfolio website repository! 
 
-## About
+Visit my portfolio at: **[elcaam.github.io](https://elcaam.github.io)**
 
-My curiosity and passion for intelligent systems is what drives me to explore how we can build efficient tools that make the world a better place. Through my academic experiences at Uark, my enthusiasm for computer science, mathematics, and data analysis has grown stronger. Over the past few years, I've worked across industry, academia, and independent projects, building expertise in system design, applied data analytics, AI integration, and cryptography. I'm always interested in projects where mathematics and machine learning intersect; projects where theory can be transformed into tools that make a measurable impact.
 
-## Research
-
-My current research focuses on **Alignment & Fairness Regression via Historical Memory**. The main goal is to continuously monitor AI outputs to ensure they remain aligned with human values and fair across diverse groups.
-
-The main objectives are to:
-- Implement a historical memory system that logs AI decisions along with alignment rules and fairness-related metadata
-- Develop scoring algorithms that detect regressions in alignment and fairness by comparing new outputs against historical patterns
-- Create a framework for actionable adjustment, providing suggestions for model updates or rule modifications when regressions are detected
-- Evaluate the system on synthetic and real-world datasets to ensure detection accuracy, low latency, and efficiency
-
-This work draws on research from *alignment monitoring, continuous AI auditing, fairness drift detection,* and memory-based AI architectures, combining theory with practical implementation for real-world impact.
-
-## Projects
-
-### CamSync File Management System
-
-CamSync is my flagship project. This is a file management platform that combines AES-GCM with AI-based document summarization. I built CamSync using Flask, Nginx, and PyTorch-based transformers. Every file is encrypted before storage and decrypted only for authorized users. The AI summarizer gives user(s) concise and context-aware summaries for multiple file formats without needing to open them.
-
-## Vision
-
-I believe the next generation of intelligent systems will need to combine strong security guarantees with adaptive and context-aware intelligence. Systems should maintain alignment and fairness over time and learn from interactions without compromising privacy. I think my work on CamSync and Alignment & Fairness Regression is a step towards that future.
-
-## Other Activities
-
-In my free time, I enjoy reading, losing myself in soul, delta blues, and some jazz records.
-
-## Contact
-
-Visit my website at: https://elcaam.github.io
+*Cam*

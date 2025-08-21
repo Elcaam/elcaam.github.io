@@ -8,12 +8,55 @@
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-      max-width: 700px;
+      max-width: 900px;
       margin: 40px auto;
       padding: 0 20px;
       line-height: 1.6;
       color: #222;
       background: #f9f9f9;
+    }
+    .container {
+      display: flex;
+      gap: 40px;
+      align-items: flex-start;
+      margin-top: 20px;
+    }
+    .profile-section {
+      flex-shrink: 0;
+      width: 250px;
+    }
+    .profile-image {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    .profile-info {
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+    .profile-name {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 8px;
+      color: #2c3e50;
+    }
+    .profile-title {
+      font-weight: 600;
+      margin-bottom: 4px;
+      color: #34495e;
+    }
+    .profile-location {
+      color: #7f8c8d;
+      margin-bottom: 8px;
+    }
+    .profile-skills {
+      color: #555;
+      font-style: italic;
+    }
+    .main-content {
+      flex: 1;
     }
     h1, h2 {
       color: #2c3e50;
@@ -45,7 +88,18 @@
   </style>
 </head>
 <body>
-  <h1>About Me</h1>
+  <div class="container">
+    <div class="profile-section">
+      <img src="cam.jpg" alt="Elcam" class="profile-image">
+      <div class="profile-info">
+        <div class="profile-name">Elcam</div>
+        <div class="profile-title">CamSync | Research</div>
+        <div class="profile-skills">Mathematics, Computer Science, Data Analysis</div>
+        <div class="profile-location">University of Arkansas, Fayetteville</div>
+      </div>
+    </div>
+    <div class="main-content">
+      <h1>About Me</h1>
   <p>
     My curiosity and passion for intelligent systems is what drives me
     to explore how we can build efficient tools that make the world a better place.
@@ -76,7 +130,7 @@
   </p>
 
   <h2>Projects</h2>
-  <p><strong>CamSync File Management System</strong></p>
+  <p><strong><a href="https://www.camsyncsystems.com/" target="_blank">CamSync File Management System</a></strong></p>
   <p>
     CamSync is my flagship project. This is a file management platform that combines AES-GCM 
     with AI-based document summarization. I built CamSync using Flask, Nginx, and PyTorch-based transformers.
@@ -99,6 +153,8 @@
     I enjoy reading, losing myself in soul, delta blues, and some jazz records. 
   </p>
 
+    </div>
+  </div>
   <footer>
     &copy; Cam
   </footer>
