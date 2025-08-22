@@ -175,20 +175,23 @@
     
   <h2>Research</h2>
   <p>
-    My current research focuses on <strong>Alignment & Fairness Regression via Historical Memory</strong>. 
-    The main goal is to continuously monitor AI outputs to ensure they remain aligned with human values 
-    and fair across diverse groups.
+    My current research focuses on <strong>Drift Detection in Retrieval-Augmented Generation (RAG) Systems</strong>. 
+    The project investigates how AI knowledge bases evolve over time and how these changes affect retrieval and generation quality. 
+    The goal is to design a lightweight framework that continuously monitors RAG pipelines to detect "knowledge drift," 
+    ensuring outputs remain accurate and reliable even as underlying data changes.
   </p>
-  <p>The main objectives are to:</p>
+  <p>Key objectives include:</p>
   <ul>
-    <li>Implement a historical memory system that logs AI decisions along with alignment rules and fairness-related metadata.</li>
-    <li>Develop scoring algorithms that detect regressions in alignment and fairness by comparing new outputs against historical patterns.</li>
-    <li>Create a framework for actionable adjustment, providing suggestions for model updates or rule modifications when regressions are detected.</li>
-    <li>Evaluate the system on synthetic and real-world datasets to ensure detection accuracy, low latency, and efficiency.</li>
+    <li>Building an open-source RAG pipeline using public datasets and pre-trained models to establish a baseline for retrieval and generation.</li>
+    <li>Developing drift metrics at both the retrieval and generation levels, including embedding similarity, Recall@K, and semantic consistency between outputs.</li>
+    <li>Implementing scripts to track drift over time as documents are added, modified, or removed from the knowledge base.</li>
+    <li>Visualizing drift patterns and analyzing trends to highlight potential degradation in AI performance.</li>
+    <li>Optionally extending the work with formal modeling and statistical analysis to understand drift dynamics more rigorously.</li>
   </ul>
   <p>
-    This work draws on research from <em>alignment monitoring, continuous AI auditing, fairness drift detection,</em> 
-    and memory-based AI architectures, combining theory with practical implementation for real-world impact.
+    This research draws on concepts from <em>AI monitoring, knowledge base management, information retrieval,</em> 
+    and <em>statistical analysis</em>, combining applied experimentation with opportunities for theoretical exploration. 
+    It represents a step toward building AI systems that remain robust, reliable, and contextually aware as they interact with evolving data.
   </p>
 
   <h2>Projects</h2>
@@ -203,10 +206,10 @@
 
   <h2>Vision</h2>
   <p>
-    I believe the next generation of intelligent systems
-    will need to combine strong security guarantees with adaptive and context-aware intelligence. 
-    Systems should maintain alignment and fairness over time and learn from interactions without compromising privacy. 
-    I think my work on CamSync and Alignment & Fairness Regression is a step towards that future.
+    I believe the next generation of intelligent systems must combine strong security guarantees with adaptive, context-aware intelligence. 
+    Systems should maintain alignment and fairness over time, learn from interactions responsibly, and safeguard user privacy. 
+    My work on CamSync and drift detection research reflects this vision: creating tools that are not only technically robust 
+    but also ethically aligned and practically useful.
   </p>
 
   <h2>Other Activities</h2>
