@@ -1,126 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Cam - About Me</title>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-      line-height: 1.6;
-      color: #222;
-      background: #f9f9f9;
-    }
-    .container {
-      display: flex;
-      gap: 40px;
-      align-items: flex-start;
-      margin-top: 20px;
-    }
-    .profile-section {
-      flex-shrink: 0;
-      width: 250px;
-    }
-    .profile-image {
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: 20px;
-    }
-    .profile-info {
-      font-size: 0.9rem;
-      line-height: 1.4;
-    }
-    .profile-name {
-      font-size: 1.5rem;
-      font-weight: bold;
-      margin-bottom: 8px;
-      color: #2c3e50;
-    }
-    .profile-title {
-      font-weight: 600;
-      margin-bottom: 4px;
-      color: #34495e;
-    }
-    .profile-location {
-      color: #7f8c8d;
-      margin-bottom: 8px;
-    }
-    .profile-skills {
-      color: #555;
-      font-style: italic;
-    }
-    .main-content {
-      flex: 1;
-    }
-    h1, h2 {
-      color: #2c3e50;
-      margin-top: 2rem;
-    }
-    p {
-      margin-bottom: 1rem;
-    }
-    ul {
-      margin-top: 0.5rem;
-      margin-bottom: 1rem;
-      padding-left: 20px;
-    }
-    a {
-      color: #2980b9;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      margin-top: 4rem;
-      font-size: 0.9rem;
-      color: #555;
-      border-top: 1px solid #ddd;
-      padding-top: 1rem;
-      text-align: center;
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cam - About Me</title>
+<style>
+body {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+max-width: 800px;
+margin: 40px auto;
+padding: 0 20px;
+line-height: 1.6;
+color: #222;
+background: #f9f9f9;
+}
+/* Changed container layout to stack vertically instead of side-by-side */
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+}
+.profile-section {
+text-align: center;
+margin-bottom: 30px;
+}
+.profile-image {
+width: 200px;
+height: 200px;
+border-radius: 50%;
+object-fit: cover;
+margin-bottom: 15px;
+}
+.profile-info {
+font-size: 0.95rem;
+line-height: 1.4;
+}
+.profile-name {
+font-size: 1.75rem;
+font-weight: bold;
+margin-bottom: 6px;
+color: #2c3e50;
+}
+.profile-title {
+font-weight: 600;
+margin-bottom: 4px;
+color: #34495e;
+}
+.profile-location {
+color: #7f8c8d;
+margin-bottom: 8px;
+}
+.profile-skills {
+color: #555;
+font-style: italic;
+}
+.main-content {
+width: 100%;
+}
+h1, h2 {
+color: #2c3e50;
+margin-top: 2rem;
+}
+p {
+margin-bottom: 1rem;
+}
+ul {
+margin-top: 0.5rem;
+margin-bottom: 1rem;
+padding-left: 20px;
+}
+a {
+color: #2980b9;
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}
+footer {
+margin-top: 4rem;
+font-size: 0.9rem;
+color: #555;
+border-top: 1px solid #ddd;
+padding-top: 1rem;
+text-align: center;
+}
+</style>
 </head>
 <body>
-  <div class="container">
-    <div class="profile-section">
-      <img src="cam.jpg" alt="Elcam" class="profile-image">
-      <div class="profile-info">
-        <div class="profile-name">Cam</div>
-        <div class="profile-skills">Computer Science & Mathematics</div>
-        <div class="profile-location">Rockline</div>
-      </div>
-    </div>
-    <div class="main-content">
-      <h1>About Me</h1>
-  <p>
-    Over the years, I've developed a deep appreciation for the intersection of theory and application,
-    but my curiosity is what drives my desire to build systems is what drives me
-    to explore how we can build tools that solve complex problems. With a background in cs and maths, 
-    I've worked on projects across the industry and academia building expertise is system design, robotics, VLM eval, and cryptography.
-    I'm currently at Rockline helping shape the future of manufacturing, working on advanced manufacturing initiatives, and
-    contributing to its continued growth. I'm always drawn to opportunities where computational 
-    theory and software engineering can be transformed into tools that deliver practical impats.
-    
-  </p>
-    
+<div class="container">
+<!-- Profile section now sits centered on top -->
+<div class="profile-section">
+<img src="cam.jpg" alt="Cam" class="profile-image">
+<div class="profile-info">
+<div class="profile-name">Cam</div>
+<div class="profile-skills">Computer Science & Mathematics</div>
+<div class="profile-location">Rockline Industries</div>
+</div>
+</div>
 
-  <h2>Other Activities</h2>
-  <p>
-    In my free time, 
-    I enjoy reading, losing myself in soul, delta blues, and some jazz records. 
-  </p>
+<!-- Main content below the image -->
+<div class="main-content">
+<h1>About Me</h1>
+<p>
+Over the years, I've developed a deep appreciation for the intersection of theory and application, driven by a curiosity to build tools that solve complex, real-world problems. With a background in computer science and mathematics, I've worked on projects across industry and academia, building expertise in systems design, robotics, VLM evaluation, and cryptography.
+</p>
+<p>
+I'm currently at Rockline Industries helping shape the future of manufacturing through AI integration, software engineering, and systems optimization. I'm always drawn to opportunities where computational theory can be transformed into tools that deliver practical, real-world impact.
+</p>
 
-    </div>
-  </div>
-  <footer>
-    &copy; Cam
-  </footer>
+<h2>Other Activities</h2>
+<p>
+In my free time, I enjoy reading, losing myself in soul, delta blues, and some jazz records. 
+</p>
+</div>
+</div>
+
+<footer>
+&copy; Cam
+</footer>
 </body>
 </html>
+
