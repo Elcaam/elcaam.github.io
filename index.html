@@ -1,125 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Cam - About Me</title>
-<style>
-body {
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-max-width: 800px;
-margin: 40px auto;
-padding: 0 20px;
-line-height: 1.6;
-color: #222;
-background: #f9f9f9;
-}
-/* Changed container layout to stack vertically instead of side-by-side */
-.container {
-display: flex;
-flex-direction: column;
-align-items: center;
-margin-top: 20px;
-}
-.profile-section {
-text-align: center;
-margin-bottom: 30px;
-}
-.profile-image {
-width: 200px;
-height: 200px;
-border-radius: 50%;
-object-fit: cover;
-margin-bottom: 15px;
-}
-.profile-info {
-font-size: 0.95rem;
-line-height: 1.4;
-}
-.profile-name {
-font-size: 1.75rem;
-font-weight: bold;
-margin-bottom: 6px;
-color: #2c3e50;
-}
-.profile-title {
-font-weight: 600;
-margin-bottom: 4px;
-color: #34495e;
-}
-.profile-location {
-color: #7f8c8d;
-margin-bottom: 8px;
-}
-.profile-skills {
-color: #555;
-font-style: italic;
-}
-.main-content {
-width: 100%;
-}
-h1, h2 {
-color: #2c3e50;
-margin-top: 2rem;
-}
-p {
-margin-bottom: 1rem;
-}
-ul {
-margin-top: 0.5rem;
-margin-bottom: 1rem;
-padding-left: 20px;
-}
-a {
-color: #2980b9;
-text-decoration: none;
-}
-a:hover {
-text-decoration: underline;
-}
-footer {
-margin-top: 4rem;
-font-size: 0.9rem;
-color: #555;
-border-top: 1px solid #ddd;
-padding-top: 1rem;
-text-align: center;
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cam - About Me</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #222;
+      background: #f9f9f9;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .profile-section {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .profile-image {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    .profile-info {
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+    .profile-name {
+      font-size: 1.75rem;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: #2c3e50;
+    }
+    .profile-title {
+      font-weight: 500;
+      margin-bottom: 4px;
+      color: #34495e;
+    }
+    .profile-location {
+      color: #7f8c8d;
+      margin-bottom: 8px;
+    }
+    .profile-skills {
+      color: #555;
+      font-style: italic;
+    }
+    .main-content {
+      width: 100%;
+    }
+    /* Softened headings weight and color to be less aggressive */
+    h1, h2 {
+      color: #334155;
+      font-weight: 500;
+      margin-top: 2.5rem;
+      margin-bottom: 0.75rem;
+    }
+    h3 {
+      color: #475569;
+      font-weight: 500;
+      margin-top: 1.25rem;
+      margin-bottom: 0.25rem;
+    }
+    p {
+      margin-bottom: 1rem;
+    }
+    ul {
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      padding-left: 20px;
+    }
+    a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .project-card {
+      margin-bottom: 1.5rem;
+    }
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #555;
+      border-top: 1px solid #ddd;
+      padding-top: 1rem;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-<div class="container">
-<!-- Profile section now sits centered on top -->
-<div class="profile-section">
-<img src="cam.jpg" alt="Cam" class="profile-image">
-<div class="profile-info">
-<div class="profile-name">Cam</div>
-<div class="profile-skills">Computer Science & Mathematics</div>
-<div class="profile-location">Rockline </div>
-</div>
-</div>
+  <div class="container">
+    <div class="profile-section">
+      <img src="cam.jpg" alt="Elcam" class="profile-image">
+      <div class="profile-info">
+        <div class="profile-name">Cam</div>
+        <div class="profile-skills">Computer Science & Mathematics</div>
+        <div class="profile-location">Rockline</div>
+      </div>
+    </div>
+    
+    <div class="main-content">
+      <h1>About Me</h1>
+      <p>
+        Over the years, I've developed a deep appreciation for the intersection of theory and application,
+        but my curiosity is what drives my desire to explore all sorts of ways to build tools that solve complex problems. With a background in cs and maths, 
+        I've worked on projects across the industry and academia building expertise in robotics, VLM eval, and cryptography.
+        I'm currently at Rockline helping shape the future of manufacturing, working on advanced manufacturing initiatives, and
+        contributing to its continued growth. I'm always drawn to opportunities where computational 
+        theory and software engineering can be transformed into tools that deliver practical impacts.
+      </p>
 
-<!-- Main content below the image -->
-<div class="main-content">
-<h1>About Me</h1>
-<p>
-Over the years, I've developed a deep appreciation for the intersection of theory and application, driven by a curiosity to build tools that solve complex, real-world problems. With a background in computer science and mathematics, I've worked on projects across industry and academia, building expertise in systems design, robotics, VLM evaluation, and cryptography.
-</p>
-<p>
-I'm currently at Rockline helping shape the future of manufacturing through AI integration, software engineering, and systems optimization. I'm always drawn to opportunities where computational theory can be transformed into tools that deliver practical, real-world impact.
-</p>
+      <h2>Projects</h2>
+      <div class="project-card">
+        <h3><a href="https://github.com/Elcaam/RAG-drift-detection" target="_blank" rel="noopener">Drift Detection in RAG Pipelines</a></h3>
+        <p>
+          This is a monitoring framework built to detect silent knowledge drift in RAG systems. It combines statistical analysis, linear regression trend detection, and component-specific tracking (retrieval vs. generation) to provide early alerts for system performance degradation.
+        </p>
+      </div>
 
-<h2>Other Activities</h2>
-<p>
-In my free time, I enjoy reading, losing myself in soul, delta blues, and some jazz records. 
-</p>
-</div>
-</div>
+      <div class="project-card">
+        <h3>CamSync</h3>
+        <p>
+          This is a web-based file management system that uses modern cryptographic techniques to encrypt users' files on upload & decrypt on demand access
+for authorized downloads. built using Flask, Nginx, and PyTorch-based transformers. It also features AI summarizer for encrypted files using PyTorch (DistilBERT), entropy filtering, and fallback logic
+with no external dependencies.
+      </div>
 
-<footer>
-&copy; Cam
-</footer>
+      <h2>Other Activities</h2>
+      <p>
+        In my free time, 
+        I enjoy reading, losing myself in soul, delta blues, and some jazz records. 
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; Cam
+  </footer>
 </body>
 </html>
-
